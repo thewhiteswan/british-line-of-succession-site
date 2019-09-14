@@ -1,0 +1,305 @@
+body {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 4% 15%;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 20px auto;
+  line-height: 1;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Great Vibes";
+  font-size: 3.5rem;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: "Raleway";
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 50px;
+  line-height: 1.2;
+}
+
+h5 {
+    color: #663399;
+    font-family: "Raleway";
+    font-size: 2rem;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.featured-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+
+/* Navigation */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: none;
+}
+
+.button-one {
+  color: #663399;
+}
+
+.button-two {
+  color:#fff;
+}
+
+.nav-link:hover {
+  color: #663399;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 4%;
+}
+
+#title p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.top-section {
+  background-color: #663399;
+  color: #fff;
+}
+
+.queen-liz {
+  width: 60%;
+  position: relative;
+  left: 35%;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Feature Images */
+
+.royal-family-photo {
+  width: 100%;
+  padding: 0;
+}
+
+/* History */
+
+#history {
+  background-color: #663399;
+  color: #fff;
+  padding-top: 50px;
+}
+
+#history h5 {
+  color: #fff;
+}
+
+/* Queen Feature */
+
+#queen-feature {
+  padding-top: 50px;
+}
+
+/* Line of Succession*/
+
+#succession-feature {
+  background-color: #fff;
+  padding-top: 50px;
+
+}
+
+.card {
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.card-gap {
+  margin-top: 20px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0; 
+}
+
+/*Footer Section*/
+
+#footer {
+  background-color: #663399;
+  color: #fff;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+/* Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991.98px) {
+
+  body {
+  text-align: center;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin: 20px auto;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1;
+  }
+
+  p {
+  font-size: 1.4rem;
+  }
+
+  .queen-liz {
+    width: 40%;
+    position: relative;
+    left: 1%;
+  }
+
+  /*Extra small devices (portrait phones, less than 576px)*/
+  @media (max-width: 575.98px) {
+    
+    body {
+    text-align: center;
+    }
+
+    .container-fluid {
+      padding: 4% 8%;
+    }
+  
+    h1 {
+      font-size: 3.3rem;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 3rem;
+    }
+  
+    h3 {
+      font-size: 2.2rem;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 20px 0;
+      line-height: 1;
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .featured-text {
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 10px 0;
+    }
+    
+    .download-button {
+      margin: 10px 0 20px 0;
+    }
+    
+    .btn-lg {
+      font-size: 1.1rem;
+      line-height: 1.1;
+    }
+  
+    .queen-liz {
+      width: 40%;
+      position: relative;
+      left: 1%;
+    }
+
+    .royal-family-photo {
+      width: 100%;
+      padding: 0;
+    }
+
+    #succession-feature {
+      position: static;
+    }
+  
+    .heirs {
+      padding-bottom: 8%;
+    }
+}
+
+}
